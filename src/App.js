@@ -5,12 +5,7 @@ function App() {
   return (
     <div>
       <h2>Let's get started!</h2>
-      {/* <Expenses
-        date={expenses.date}
-        title={expenses.title}
-        amount={expenses.amount}
-      /> */}
-      <Expenses expenses={expenses} />
+      <Expenses items={expenses} />
     </div>
   );
 }
