@@ -56,7 +56,8 @@ const ExpenseForm = (props) => {
     setDate("");
 
     // setIsVisible(!isVisible);
-    props.setIsEditing(!props.isEditing);
+    // props.setIsEditing(!props.isEditing);
+    props.onCancel();
   };
 
   return (
