@@ -1,6 +1,6 @@
 
 
-export const expenses = [
+export const DUMMY_DATA = [
   {
     id: "e1",
     title: "Toilet Paper",
