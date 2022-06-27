@@ -59,6 +59,8 @@ const ExpenseForm = (props) => {
     setTitle("");
     setAmount("");
     setDate("");
+
+    setIsVisible(!isVisible);
   };
 
   return (
